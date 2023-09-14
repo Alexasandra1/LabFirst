@@ -1,0 +1,914 @@
+@import "style3.css";
+
+
+.blueArea {
+    background: linear-gradient(195deg, #6888FF 0%, #5E80FF 100%);
+}
+
+.grayArea {
+    background: linear-gradient(164deg, #E9EFFF 0%, #E0E9FF 100%);
+}
+
+
+.threeElBlueArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.threeElGrayArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow_point {
+    width: 65px;
+    height: 66px;
+}
+
+.percent {
+    width: 94px;
+    height: 48px;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.75%;
+    letter-spacing: 1.44px;
+}
+
+.customers {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 130%;
+    letter-spacing: 1.3px;
+}
+
+.people img {
+    width: 71px;
+    height: 62px;
+}
+
+.number {
+    width: 102px;
+    height: 49px;
+    color: #5E80FF;
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.75%;
+    letter-spacing: 1.44px;
+}
+
+.users {
+    color: #5E80FF;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 130%;
+    letter-spacing: 1.3px;
+}
+
+
+
+
+
+.allFive {
+    background-color: #FFF;
+}
+
+.dark .allFive {
+    background: linear-gradient(90deg, #1c2642 0%, #04070f 100%);
+}
+
+
+.contFive {
+    display: flex;
+    flex-direction: column;
+}
+
+.curleImage {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.curleImage img {
+    padding-bottom: 27px; 
+}
+.mini_cont {
+    width: 140px;
+    height: 254px;
+}
+
+.about_us {
+    color: #3D4F9F;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.dark .about_us {
+    color: #F1F5FF
+}
+
+
+.read_about_our_app {
+    color: #3D4F9F;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.nameFive {
+    color: #4074F8;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 177.036%;
+    letter-spacing: 0.6px;
+}
+
+.textFive {
+    color: #ADB3CB;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 177.036%;
+    letter-spacing: 0.3px;
+}
+
+
+.buttonFive {
+    display: flex;
+    flex-direction: row;
+    gap: 19.37px;
+}
+
+.read_more {
+    width: 106.629px;
+    height: 43px;
+    background-color: #FFD7D7;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.read_more div {
+    width: 77px;
+    height: 17px;
+    color: #D43F3F;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 13px 14px 13px 15px;
+}
+
+.get_started {
+    width: 107px;
+    height: 43px;
+    background-color: #D2E1FF;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.get_started div {
+    width: 77.377px;
+    height: 17px;
+    flex-shrink: 0;
+    color: #3A79FF;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 13px 14px 13px 15px;
+}
+
+
+.nameFive {
+    padding-bottom: 25px;
+}
+
+
+.overview {
+    padding: 0;
+    text-align: center;
+}
+
+.files {
+    padding: 0;
+    text-align: center;
+}
+
+.meeting {
+    padding: 0;
+    text-align: center;
+}
+
+.save {
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+.allfirst {
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+}
+
+.dark .allfirst {
+    background: linear-gradient(90deg, #1c2642 0%, #04070f 100%);
+}
+
+.all_text_first {
+    display: flex;
+    flex-direction: column;
+}
+
+.life {
+    color: #3D4F9F;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.dark .life {
+    color: #ffffff;
+}
+
+
+.productivity {
+    color: #3D4F9F;
+    font-family: Quicksand;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.productivity span {
+    font-weight: 1000;
+}
+
+.brute_laoreet {
+    color: #8D96BD;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 191.016%;
+    letter-spacing: 0.7px;
+}
+
+
+.play_button img {
+    width: 52px;
+    height: 52px;
+}
+
+
+
+
+.allSix {
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.cont_six_sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial_six_sec {
+    width: 85px;
+    height: 14px;
+    color: #3D4F9F;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.customers_sic_sec {
+    color: #3D4F9F;
+    font-family: Quicksand;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.brute_six_sec {
+    color: #A4ABC8;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 189.292%;
+    letter-spacing: 0.36px;
+}
+
+.img_six_sec {
+    width: 423px;
+    height: 206px;
+}
+
+/* @media screen and (max-width: 1500px) { */
+
+    .allfirst {
+        /* width: 1440px; */
+        height: 570px;
+    }
+
+    .all_text_first {
+        width: 583px;
+        height: 266px;
+        text-align: center;
+        padding: 152px 437px 152px 420px;
+    }
+
+    .life {
+        padding: 0 249px 16px auto;
+    }
+
+    .productivity {
+        width: 583px;
+        /* height: 60px; */
+        padding: 0 0 22px 0;
+    }
+
+    .brute_laoreet {
+        padding: 0 41px 13px 40px;
+    }
+
+    .play_btn{
+        width: 56px;
+        padding: 0 0 0 272px;
+    }
+
+    .play_button {
+        cursor: pointer;
+    }
+
+
+
+
+    .fourSec {
+        height: 342px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .threeElBlueArea {
+        width: 260px;
+        height: 210px;
+        padding: 66px 90px 66px 370px;
+    }
+
+    .arrow_point {
+        padding: 0 0 10px 195px;
+    }
+
+    .percent {
+        padding: 0 0 39px 165px;
+    }
+
+    .customers {
+        text-align: right;
+        padding: 0 0 0 4px;
+    }
+
+    .threeElGrayArea {
+        width: 230px;
+        height: 206px;
+        padding: 70px 400px 66px 90px;
+    }
+
+    .people {
+        padding: 0 155px 8px 4px;
+    }
+
+    .number {
+        padding: 0 126px 36px 1px;
+    }
+
+    .users {
+        padding: 0;
+    }
+
+
+
+
+    .allFive {
+        width: 1440px;
+        height: 885px;
+    }
+
+    .contFive {
+        width: 760px;
+        height: 568px;
+        padding: 171px 340px 146px 340px;
+    }
+
+    .about_us {
+        padding: 0 353px 20px 352px;
+    }
+
+    .read_about_our_app {
+        text-align: center;
+        padding: 0 266px 92px 265px;
+    }
+
+    .curleImage {
+        display: flex;
+        flex-direction: row;
+        gap: 66.95px;
+        padding: 0 0 117px 0;
+    }
+
+    .overview_files {
+        display: flex;
+        flex-direction: row;
+        gap: 66.95px;
+        padding: 0;
+    }
+
+    .meeting_save {
+        display: flex;
+        flex-direction: row;
+        gap: 66.95px;
+        padding: 0;
+    }
+
+    .overview {
+        padding: 0;
+        text-align: center;
+    }
+
+    .files {
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .buttonFive {
+        padding: 0 266px 0 262px;
+    }
+
+
+
+
+
+
+
+    .allSix {
+        width: 1440px;
+        height: 479px;
+    }
+
+    .cont_six_sec {
+        width: 1000px;
+        height: 210px;
+        padding: 124px 164px 145.3px 276px;
+    }
+
+    .text_six_sec {
+        text-align: left;
+        padding: 22.31px 244px 0 0;
+    }
+
+    .testimonial_six_sec {
+        padding: 0 168px 27px 4px;
+    }
+
+    .customers_sic_sec {
+        width: 333px;
+        height: 39px;
+        padding: 0 0 25.53px 0;
+    }
+
+    .brute_six_sec {
+        width: 323px;
+        height: 78.163px;
+        padding: 0 10px 0 0;
+    }
+
+    .img_six_sec {
+        width: 423px;
+        height: 206px;
+        padding: 0 0 3.7px 0;
+    }
+/* } */
+
+
+@media screen and (max-width: 960px) {
+
+    .allfirst {
+        width: 720px;
+        height: 570px;
+    }
+
+    .all_text_first {
+        width: 583px;
+        height: 266px;
+        text-align: center;
+        padding: 152px 66px 152px 73px;
+    }
+
+    .life {
+        padding: 0 249px 16px 244px;
+    }
+
+    .productivity {
+        width: 583px;
+        /* height: 60px; */
+        padding: 0 0 22px 0;
+    }
+
+    .brute_laoreet {
+        padding: 0 41px 20px 40px;
+    }
+
+    .play_btn{
+        padding: 0 266px 0 265px;
+    }
+
+
+
+
+
+    .fourSec {
+        height: 518px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blueArea {
+        height: 259px;
+    }
+
+    .grayArea {
+        height: 259px;
+    }
+
+
+    .threeElBlueArea {
+        width: 447px;
+        height: 176px;
+        padding: 49px 139px 34px 134px;
+    }
+
+    .arrow_point {
+        padding: 0 188px 9px 194px;
+    }
+
+    .percent {
+        padding: 0 177px 13px 175px;
+    }
+
+    .customers {
+        text-align: center;
+        padding: 13px 0 0 0;
+    }
+
+    .threeElGrayArea {
+        width: 335px;
+        height: 169px;
+        padding: 54px 192px 36px 193px;
+    }
+
+    .people {
+        padding: 0 132px 0 132px;
+    }
+
+    .number {
+        padding: 0 116px 9px 116px;
+    }
+
+    .users {
+        padding: 19px 0 0 0;
+    }
+
+
+
+
+
+
+    .allFive {
+        width: 720px;
+        height: 412px;
+    }
+
+    .contFive {
+        width: 659px;
+        height: 389px;
+        padding: 8px 22px 15px 39px;
+    }
+
+    .about_us {
+        padding: 0 302px 20px 301px;
+    }
+
+    .read_about_our_app {
+        padding: 0 215px 30px 214px;
+    }
+
+    .curleImage {
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
+        padding: 0;
+    }
+
+    .overview_files {
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
+        padding: 0;
+    }
+
+    .meeting_save {
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
+        padding: 0;
+    }
+
+    .overview {
+        padding: 0;
+        text-align: center;
+    }
+
+    .files {
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .buttonFive {
+        padding: 0 208px 0 218px;
+    }
+
+
+
+
+
+
+
+
+    .allSix {
+        width: 720px;
+        height: 325px;
+    }
+
+    .cont_six_sec {
+        width: 690px;
+        height: 213px;
+        padding: 57px 15px 55px 15px;
+    }
+
+    .text_six_sec {
+        text-align: left;
+        padding: 0 10px 0 0;
+    }
+
+    .testimonial_six_sec {
+        padding: 0 168px 9px 4px;
+    }
+
+    .customers_sic_sec {
+        width: 257px;
+        height: 84px;
+        padding: 0 0 17.23px 0;
+    }
+
+    .brute_six_sec {
+        width: 249.282px;
+        height: 78.163px;
+        padding: 0 3.72px 0 4px;
+    }
+
+    .img_six_sec {
+        width: 423px;
+        height: 206px;
+        padding: 7px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .allfirst {
+        width: 320px;
+        height: 469px;
+    }
+
+    .all_text_first {
+        width: 308px;
+        height: 348px;
+        text-align: center;
+        padding: 55px 5px 66px 7px;
+    }
+
+    .life {
+        padding: 0 109px 7px 107px;
+    }
+
+    .productivity {
+        width: 308px;
+        height: 120px;
+        padding: 0 0 15px 0;
+    }
+
+    .brute_laoreet {
+        padding: 0 14px 26px 8px;
+    }
+
+    .play_btn{
+        padding: 0 131px 0 125px;
+    }
+
+
+
+
+    .fourSec {
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blueArea {
+        height: 205px;
+    }
+
+    .grayArea {
+        height: 205px;
+    }
+
+
+    .threeElBlueArea {
+        width: 259px;
+        height: 179px;
+        padding: 11px 29px 15px 31px;
+    }
+
+    .arrow_point {
+        padding: 0 102px 0 92px;
+    }
+
+    .percent {
+        padding: 0 82px 11px 83px;
+    }
+
+    .customers {
+        text-align: center;
+        padding: 11px 0 0 0;
+    }
+
+    .threeElGrayArea {
+        width: 313px;
+        height: 167px;
+        padding: 27px 3px 11px 3px;
+    }
+
+    .people {
+        padding: 0 125px 0 117px;
+    }
+
+    .number {
+        padding: 0 112px 0 99px;
+    }
+
+    .users {
+        letter-spacing: 0.7px;
+        padding: 6px 0 0 0;
+    }
+
+
+
+
+    .allFive {
+        width: 320px;
+        height: 663px;
+    }
+
+    .contFive {
+        width: 302px;
+        height: 622px;
+        padding: 18px 8px 23px 10px;
+    }
+
+    .about_us {
+        padding: 0 125px 0 115px;
+    }
+
+    .curleImage {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .overview_files {
+        display: flex;
+        flex-direction: row;
+        gap: 22px;
+        padding: 0 0 15px 0;
+    }
+
+    .meeting_save {
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+        padding: 0 0 0 5px;
+    }
+
+    .overview {
+        padding: 0;
+        text-align: center;
+    }
+
+    .files {
+        padding: 0;
+        text-align: center;
+    }
+
+    .read_about_our_app {
+        padding: 0 16px 0 35px;
+    }
+
+    .buttonFive {
+        padding: 0 32px 0 37px;
+    }
+
+
+
+
+
+    .allSix {
+        width: 320px;
+        height: 425px;
+    }
+
+    .cont_six_sec {
+        display: flex;
+        flex-direction: column;
+        width: 294px;
+        height: 397px;
+        padding: 19px 13px 8.54px 13px;
+    }
+
+    .text_six_sec {
+        text-align: left;
+        padding: 0;
+    }
+
+    .testimonial_six_sec {
+        padding: 0 205px 7px 4px;
+    }
+
+    .customers_sic_sec {
+        width: 257px;
+        height: 84px;
+        padding: 0 37px 10.23px 0;
+    }
+
+    .brute_six_sec {
+        width: 249.282px;
+        height: 78.163px;
+        padding: 0 40.72px 0 4px;
+    }
+
+    .img_six_sec {
+        width: 294px;
+        height: 180px;
+        padding: 0;
+    }
+
+    .img_six_sec img {
+        width: 294px;
+        height: 180px;
+    }
+}
